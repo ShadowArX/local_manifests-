@@ -39,6 +39,10 @@
            path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5"
            remote="github"
            revision="master" />
+  <project name="ShadowArX/clang-r450784d"
+           path="prebuilts/clang/host/linux-x86/clang-r450784d"
+           remote="github"
+           revision="master" />
   
   <!-- patches-->
   
