@@ -39,8 +39,8 @@
            path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5"
            remote="github"
            revision="master" />
-  <project name="ShadowArX/clang-r450784d"
-           path="prebuilts/clang/host/linux-x86/clang-r450784d"
+  <project name="ShadowArX/linaro_arm-linux-gnueabihf-7.5"
+           path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5"
            remote="github"
            revision="master" />
   
