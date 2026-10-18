@@ -45,7 +45,15 @@
            revision="master" />
   
   <!-- patches-->
-  
-  
+  <remove-project name="platform/system/bpf" />
+  <project name="ShadowArX/platform_system_bpf"
+           path="system/bpf"
+           remote="github"
+           revision="13.0-r75" />
+  <remove-project name="crdroidandroid/android_system_core" />
+  <project name="ShadowArX/android_system_core"
+           path="system/core"
+           remote="github"
+           revision="13.0" />
 </manifest>
 
