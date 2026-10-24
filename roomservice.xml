@@ -55,5 +55,12 @@
            path="system/core"
            remote="github"
            revision="13.0" />
-</manifest>
 
+<!-- patches-->
+<remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+<project name="ShadowArX/android_packages_providers_ContactsProvider"
+         path="packages/providers/ContactsProvider"
+         remote="github"
+         revision="lineage-20.0" />
+
+  </manifest>
